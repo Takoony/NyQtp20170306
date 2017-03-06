@@ -1,0 +1,4 @@
+D:\NyQtp\NyAtStrategy\at_core\bin\Debug\at_core.dll
+D:\NyQtp\NyAtStrategy\at_core\bin\Debug\at_core.pdb
+D:\NyQtp\NyAtStrategy\at_core\obj\Debug\at_core.dll
+D:\NyQtp\NyAtStrategy\at_core\obj\Debug\at_core.pdb

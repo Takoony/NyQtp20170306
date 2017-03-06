@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{30F35AEC-6C7E-4D28-B50E-DFE384D1FFCD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>at_strategy</RootNamespace>
+    <AssemblyName>at_strategy</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="at_core">
+      <HintPath>..\at_core\bin\Debug\at_core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Indicators\_ADL.cs" />
+    <Compile Include="Indicators\_ADX.cs" />
+    <Compile Include="Indicators\_ADXR.cs" />
+    <Compile Include="Indicators\_Aroon.cs" />
+    <Compile Include="Indicators\_AroonOscillator.cs" />
+    <Compile Include="Indicators\_ATR.cs" />
+    <Compile Include="Indicators\_Bollinger.cs" />
+    <Compile Include="Indicators\_BOP.cs" />
+    <Compile Include="Indicators\_EMA.cs" />
+    <Compile Include="Indicators\_Highest.cs" />
+    <Compile Include="Indicators\_KDJ.cs" />
+    <Compile Include="Indicators\_Lowest.cs" />
+    <Compile Include="Indicators\_MACD.cs" />
+    <Compile Include="Indicators\_RSI.cs" />
+    <Compile Include="Indicators\_SMA.cs" />
+    <Compile Include="Indicators\_StdDev.cs" />
+    <Compile Include="Indicators\_SUM.cs" />
+    <Compile Include="Indicators\_WMA.cs" />
+    <Compile Include="Indicators\_ZigZag.cs" />
+    <Compile Include="Macd.cs" />
+    <Compile Include="MACross.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

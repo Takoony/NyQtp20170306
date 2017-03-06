@@ -1,0 +1,7 @@
+D:\NyQtp\NyAtStrategy\at_strategy\bin\Debug\at_strategy.dll
+D:\NyQtp\NyAtStrategy\at_strategy\bin\Debug\at_strategy.pdb
+D:\NyQtp\NyAtStrategy\at_strategy\bin\Debug\at_core.dll
+D:\NyQtp\NyAtStrategy\at_strategy\bin\Debug\at_core.pdb
+D:\NyQtp\NyAtStrategy\at_strategy\obj\Debug\at_strategy.csprojResolveAssemblyReference.cache
+D:\NyQtp\NyAtStrategy\at_strategy\obj\Debug\at_strategy.dll
+D:\NyQtp\NyAtStrategy\at_strategy\obj\Debug\at_strategy.pdb

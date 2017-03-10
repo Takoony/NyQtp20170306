@@ -1,0 +1,46 @@
+20170310 13:56:04	Application UnhandledException:未能加载文件或程序集“AsyncIO, Version=0.1.18.0, Culture=neutral, PublicKeyToken=44a94435bd6f33f8”或它的某一个依赖项。系统找不到指定的文件。; 堆栈信息:   在 NetMQ.Core.Utils.Proactor..ctor(String name)
+   在 NetMQ.Core.IOThread..ctor(Ctx ctx, Int32 threadId)
+   在 NetMQ.Core.Ctx.CreateSocket(ZmqSocketType type)
+   在 NetMQ.NetMQSocket..ctor(ZmqSocketType socketType, String connectionString, DefaultAction defaultAction)
+   在 NetMQ.Sockets.RequestSocket..ctor(String connectionString)
+   在 Nyang.GetData.SendAndReceive(ReqPackage r) 位置 D:\NyQtp\NyAtStrategy\FixTick\GetData.cs:行号 64
+   在 Nyang.GetData.QueryTime() 位置 D:\NyQtp\NyAtStrategy\FixTick\GetData.cs:行号 110
+   在 Nyang.DataProcess.UpdateInfo() 位置 D:\NyQtp\NyAtStrategy\FixTick\DataProcess.cs:行号 46
+   在 Nyang.DataProcess..ctor(String host, Int32 port) 位置 D:\NyQtp\NyAtStrategy\FixTick\DataProcess.cs:行号 25
+   在 Nyang.Plat..ctor(TradeExt pTrade, Quote pQuote) 位置 D:\NyQtp\NyAtStrategy\Ny_terminal\Plat.cs:行号 62
+   在 Nyang.Program.Main() 位置 D:\NyQtp\NyAtStrategy\Ny_terminal\Program.cs:行号 42
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+20170310 14:01:27	Application UnhandledException:值不能为 null。
+参数名: source; 堆栈信息:   在 System.Linq.GroupedEnumerable`3..ctor(IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   在 System.Linq.Enumerable.GroupBy[TSource,TKey](IEnumerable`1 source, Func`2 keySelector)
+   在 Nyang.DataProcess.UpdateInfo() 位置 D:\NyQtp\NyAtStrategy\FixTick\DataProcess.cs:行号 46
+   在 Nyang.DataProcess..ctor(String host, Int32 port) 位置 D:\NyQtp\NyAtStrategy\FixTick\DataProcess.cs:行号 25
+   在 Nyang.Plat..ctor(TradeExt pTrade, Quote pQuote) 位置 D:\NyQtp\NyAtStrategy\Ny_terminal\Plat.cs:行号 62
+   在 Nyang.Program.Main() 位置 D:\NyQtp\NyAtStrategy\Ny_terminal\Program.cs:行号 42
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+20170310 14:11:52	Application UnhandledException:值不能为 null。
+参数名: source; 堆栈信息:   在 System.Linq.GroupedEnumerable`3..ctor(IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   在 System.Linq.Enumerable.GroupBy[TSource,TKey](IEnumerable`1 source, Func`2 keySelector)
+   在 Nyang.DataProcess.UpdateInfo() 位置 D:\NyQtp\NyAtStrategy\FixTick\DataProcess.cs:行号 46
+   在 Nyang.DataProcess..ctor(String host, Int32 port) 位置 D:\NyQtp\NyAtStrategy\FixTick\DataProcess.cs:行号 25
+   在 Nyang.Plat..ctor(TradeExt pTrade, Quote pQuote) 位置 D:\NyQtp\NyAtStrategy\Ny_terminal\Plat.cs:行号 62
+   在 Nyang.Program.Main() 位置 D:\NyQtp\NyAtStrategy\Ny_terminal\Program.cs:行号 42
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()

@@ -1,0 +1,10 @@
+D:\NyQtp\NyAtStrategy\Ny_terminal\obj\Debug\Ny_terminal.Properties.Resources.resources
+D:\NyQtp\NyAtStrategy\Ny_terminal\obj\Debug\Ny_terminal.csproj.GenerateResource.Cache
+D:\NyQtp\NyAtStrategy\Ny_terminal\bin\Debug\Ny_terminal.exe.config
+D:\NyQtp\NyAtStrategy\Ny_terminal\bin\Debug\Ny_terminal.exe
+D:\NyQtp\NyAtStrategy\Ny_terminal\bin\Debug\Ny_terminal.pdb
+D:\NyQtp\NyAtStrategy\Ny_terminal\obj\Debug\Ny_terminal.exe
+D:\NyQtp\NyAtStrategy\Ny_terminal\obj\Debug\Ny_terminal.pdb
+D:\NyQtp\NyAtStrategy\Ny_terminal\obj\Debug\Nyang.FrmLogin.resources
+D:\NyQtp\NyAtStrategy\Ny_terminal\obj\Debug\Nyang.Plat.resources
+D:\NyQtp\NyAtStrategy\Ny_terminal\bin\Debug\NetMQ.dll

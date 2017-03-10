@@ -1,0 +1,1 @@
+StraName,Type,Instrument,Interval,BeginDate,EndDate,Param
